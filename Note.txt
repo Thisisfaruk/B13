@@ -33,7 +33,7 @@ Whenever you make changes:
 git add .
 git commit -m "2nd"
 git push 
-git push --set-upstream origin main
+git push --set-upstream origin master
 
 git push -u origin main
 
