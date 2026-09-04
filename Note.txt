@@ -1,0 +1,59 @@
+Step 1 : Setup 
+git config --global user.name "Thisisfaruk"
+git config --global user.email "work.omarfaruk@gmail.com"
+
+Step 2 : initial 
+git init
+
+git status
+
+Step 3 : Conntect to github
+git remote add origin https://github.com/Thisisfaruk/webdevB13
+
+git remote add origin https://github.com/Thisisfaruk/webdevB13
+
+git remote -v
+
+
+Step 4 : Make your first commit
+git add .
+git commit -m "Initial commit"
+
+
+branch to main:
+git branch -M main
+
+Step 5 : Push to GitHub
+git push -u origin main
+
+
+Step in All : normal workflow is
+Whenever you make changes:
+
+git add .
+git commit -m "2nd"
+git push 
+git push --set-upstream origin main
+
+git push -u origin main
+
+Step : Merge 
+git pull origin main
+git push origin main
+git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "Merge remote main"
+git push origin main
+
+
+
+
+#
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin hhttps://github.com/Thisisfaruk/webdevB13
+git push -u origin master
+
+
